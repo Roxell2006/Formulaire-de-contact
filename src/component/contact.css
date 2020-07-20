@@ -1,0 +1,45 @@
+/* Contact */
+
+#contact{
+	background-color: rgb(80,80,80);
+	padding: 5px 0 30px 0;
+	color: white;
+}
+
+form{
+	text-align: left;
+	font-family: cursive;
+}
+.comment{
+	font-style: italic;
+	color: red;
+	height: 20px;
+	font-size: 16px;
+}
+.buttonForm{
+	display: block;
+	width: 200px;
+	height: 40px;
+	margin: 40px auto 20px auto;
+	background-color: #0070BB;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	text-transform: uppercase;
+}
+.buttonForm:hover{
+	animation-duration: .5s;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-name: bounce;	
+}
+
+@keyframes bounce{
+	from{
+		transform: scale(1);
+	}
+	to{
+		transform: scale(1.2);
+	}
+}

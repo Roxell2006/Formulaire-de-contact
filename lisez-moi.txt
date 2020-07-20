@@ -1,0 +1,17 @@
+Exemple d'un formulaire de contact avec envoi d'email en react et nodejs
+
+il s'agit du formulaire de contact de mon site https://www.romualdhansen.com
+écrit à la base en html/javascript et php.
+
+Regardez la configuration smtp de votre hébergeur ou de votre service de messagerie électronique,
+et modifiez le fichier config.json du dossier backend en inscrivant vos paramètres.
+
+faites npm install dans le dossier backend, puis node server.js pour lancer le serveur.
+
+ensuite faites un cd.. pour retourner dans le dossier racine du projet
+faites npm install, puis npm start pour lancer l'application react.
+
+l'application s'excécute en http://localhost:3000
+et le server en localhost:3002
+
+
